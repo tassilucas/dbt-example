@@ -1,0 +1,11 @@
+
+bigquery-db:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: de-practice-469814
+      dataset: dbt_dataset
+      threads: 1
+      keyfile: credentials/cert.json
