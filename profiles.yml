@@ -8,4 +8,4 @@ bigquery-db:
       project: de-practice-469814
       dataset: dbt_dataset
       threads: 1
-      keyfile_json: "credentials.json"
+      keyfile: "credentials.json"
