@@ -8,4 +8,4 @@ bigquery-db:
       project: de-practice-469814
       dataset: dbt_dataset
       threads: 1
-      keyfile_json: "{{ env_var('GCP_CREDENTIAL_JSON') }}"
+      keyfile_json: "credentials.json"
