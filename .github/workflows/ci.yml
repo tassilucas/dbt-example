@@ -27,5 +27,5 @@ jobs:
       - name: run dbt build
         run: dbt build
 
-      - name: run dbt tests
-        run: dbt tests
+      - name: run dbt test
+        run: dbt test
